@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "jimp": "^0.16.1",
     "qrcode": "^1.5.4"
   }
