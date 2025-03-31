@@ -29,7 +29,7 @@ export const QRCodeGenerator = () => {
         formData.append('logo', imageFile);
       }
 
-      const response = await fetch('http://localhost:3000/generate-qrcode', {
+      const response = await fetch('https://qrgenerator-iki6.onrender.com/generate-qrcode', {
         method: 'POST',
         body: formData,
       });
